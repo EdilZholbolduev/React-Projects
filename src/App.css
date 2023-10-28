@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: #4D4C7D;
+  font-family: monospace;
+}
+
+.class-box{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 20px;
+}
+.class-box a{
+  color:#B3A492;
+  text-decoration: none;
+}
+.class-box a:hover{
+  transition: 0.3s;
+  color:#D0D4CA;
+  text-decoration: none;
+}
+.class-box a:active{
+  transition:0.1s;
+  color:#B3A492;
+  text-decoration: none;
+}
+
+.container-inner{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.logo{
+  color: #B3A492;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo::before{
+  opacity: 0;
+  transition: opacity 0.9s;
+}
+.logo:hover::before{
+  opacity: 1;
+}
