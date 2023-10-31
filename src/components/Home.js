@@ -20,13 +20,29 @@ function Home() {
       <div className='main-inner2'>
          <h2>Skills:</h2>
          <div className='skills'>
+            <ul className='skills-inner'> 
+               <li>
          <FontAwesomeIcon icon={faReact} spin size='6x' style={{color: "#00d5ff",}} />
+               </li>
+               <li>
          <FontAwesomeIcon icon={faJs} fade size='6x' style={{color: "#e3f028",}} />
+               </li>
+               <li>
          <FontAwesomeIcon icon={faBootstrap} size='6x' fade style={{color: "#eb59ee",}} />
+               </li>
+               <li>
          <FontAwesomeIcon icon={faCss3Alt} size='6x' fade style={{color: "#005eff",}} />
+               </li>
+               <li>
          <FontAwesomeIcon icon={faHtml5} fade size='6x' style={{color: "#fb9a4b",}} />
+               </li>
+               <li>
          <FontAwesomeIcon icon={faSass} fade size="6x" style={{color: "#ff055d",}} />
+               </li>
+               <li>
          <FontAwesomeIcon icon={faJava} fade size="6x" style={{color: "#ffc933",}} />
+               </li>
+            </ul>
          </div>
       </div>
     </div>

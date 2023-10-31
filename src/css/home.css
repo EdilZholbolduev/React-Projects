@@ -29,5 +29,10 @@ h2{
 }
 .skills{
    display: flex;
+}
+.skills-inner{
+   padding: 0;
+   display: flex;
    gap: 30px;
+   list-style: none;
 }

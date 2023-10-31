@@ -1,0 +1,21 @@
+.blockFirst{
+   display: flex;
+}
+.blockSecond{
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+.blockThird{
+   margin: 0 auto;
+   font-size: 20px;
+   width: 500px;
+   color: #86A789;
+   display: flex;
+   flex-direction: column;
+   gap: 35px;
+}
+.bT-inner{
+   color: #DADDB1;
+   font-size: 30px;
+}
